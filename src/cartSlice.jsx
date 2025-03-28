@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+
 const cartSlice=createSlice({
    name:"myname",
    initialState:{
@@ -13,8 +14,31 @@ const cartSlice=createSlice({
          else{
             state.cart.push(actions.payload);
          }
+      },
+      qntIncrese:(state,actions)=>{
+         for(var i=0; i<state.cart.length; i++){
+            if(state.cart[i].id==actions.payload.id){
+               state.cart[i].qnty++;
+            }
+         }
+      },
+      qntydecrease:(state,actions)=>{
+         for(var i=0; i<state.cart.length; i++){
+            if(state.cart[i].id==actions.payload.id){
+               if(state.cart[i].qnty<=1){
+                  alert("Quantity not less than 1 ")
+               }
+               else{
+                  state.cart[i].qnty--;
+               }
+               
+            }
+         }
+      },
+      dataRemove:(state,actions)=>{
+         state.cart=state.cart.filter(item=>item.id!=actions.payload.id)
       }
    }
 })
-export const{addtocard}=cartSlice.actions;
+export const{addtocard,qntIncrese,qntydecrease,dataRemove}=cartSlice.actions;
 export default cartSlice.reducer;

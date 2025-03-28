@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
-import ban1 from "../images/baner6.jpg";
-import ban2 from "../images/baner7.jpg";
+import ban1 from "../images/baner8.webp";
+import ban2 from "../images/baner2.jpg";
 import ban3 from "../images/baner5.webp";
 import { useState,useEffect } from 'react';
 import axios from 'axios';
@@ -31,7 +31,7 @@ const Home=()=>{
         <Card.Text>
           <h3>Price:{key.prize}</h3>
         </Card.Text>
-        <Button variant="primary" onClick={()=>{disptach(addtocard({id:key.id,name:key.name,prize:key.prize,image:key.img}))}}>Add to Card</Button>
+        <Button variant="primary" onClick={()=>{disptach(addtocard({id:key.id, name:key.name, prize:key.prize,img:key.img, qnty:1}))}}>Add to Card</Button>
       </Card.Body>
     </Card>
       </>
@@ -41,31 +41,27 @@ const Home=()=>{
       <>
          <Carousel data-bs-theme="dark">
       <Carousel.Item>
-        <img src={ban1} style={{width:"100%",height:"450px"}} />
+        <img src={ban1} style={{width:"100%",height:"500px"}} />
         <Carousel.Caption>
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img src={ban2} style={{width:"100%",height:"450px"}}/>
+        <img src={ban2} style={{width:"100%",height:"500px"}}/>
         <Carousel.Caption>
           <h5>Second slide label</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img src={ban3} style={{width:"100%",height:"450px"}}/>
+        <img src={ban3} style={{width:"100%",height:"500px"}}/>
         <Carousel.Caption>
-          <h5>Third slide label</h5>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
 
-    <h1>Our Primium Products</h1>
+    <h1 className='head'>Our Primium Products</h1>
       <div id='prdata'>
         {ans}
       </div>
