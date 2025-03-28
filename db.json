@@ -69,6 +69,21 @@
          "prize":1799,
          "categry":"Wireless",
          "img":"https://www.boat-lifestyle.com/cdn/shop/files/R460-FI_Black01_d8ded780-a0bb-4b54-a9ad-37ae60a3d288_800x.png?v=1733826338"
+      },
+      {
+         "id":11,
+         "name":"boAt Rockerz 205 Pro",
+         "prize":1999,
+         "categry":"Neckband",
+         "img":"https://www.boat-lifestyle.com/cdn/shop/files/516vlGqhkJL._SY450_450x.jpg?v=1715156389"
+      },
+      {
+         "id":12,
+         "name":"boAt Rockerz 261 Pro",
+         "prize":1749,
+         "categry":"Neckband",
+         "img":"https://www.boat-lifestyle.com/cdn/shop/files/261pro1_1080x.png?v=1721816983"
       }
+
    ]
 }

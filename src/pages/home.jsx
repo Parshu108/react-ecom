@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import ban1 from "../images/baner8.webp";
-import ban2 from "../images/baner2.jpg";
+import ban2 from "../images/baner9.webp";
 import ban3 from "../images/baner5.webp";
 import { useState,useEffect } from 'react';
 import axios from 'axios';

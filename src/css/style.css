@@ -1,7 +1,7 @@
 #headerdata{
    width: 100%;
    height: 50px;
-   background-color: rgba(78, 78, 78, 0.557);
+   background-color: rgba(78, 78, 78, 0.361);
    text-align: right;
    padding-right: 100px;
    padding-top: 5px;
@@ -19,9 +19,11 @@
 #prdata{
    display: flex;
    flex-wrap: wrap;
-   gap: 20px;
+   gap: 35px;
    width: 90%;
+   height: auto;
    margin: auto;
+   
 }
 .head{
    text-align: center;
@@ -40,11 +42,12 @@ h1{
    padding: 10px;
    
 }
-#prdata{
+#prodata{
    display: flex;
-   width: 70%;
+   width: 100%;
+   padding-left: 20%;
    margin: auto;
-   /* border: 1px solid blue; */
+   
 }
 p{
    width: 50%;
@@ -53,7 +56,7 @@ h3{
    font-size: 35px;
 }
 #prdetail{
-   margin-top: 25px;
+   margin-top: 40px;
    width: 50%;
    flex-wrap: wrap;
 }

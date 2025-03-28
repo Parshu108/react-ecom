@@ -20,9 +20,8 @@ const Productdisplay=()=>{
    },[]);
    return(
       <>
-         <h1>our product:</h1>
-
-         <div id="prdata">
+         <h1 style={{color: "rgb(0, 200, 255)"}}>our product</h1>
+         <div id="prodata">
             <div>
                <img src={product.img} width="500" height="auto" />
             </div>

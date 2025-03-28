@@ -45,7 +45,7 @@ const Neakband=()=>{
    return(
       <>
 
-    <h1 className='head'>Our Primium Products</h1>
+    <h1 className='head'>Our Neakband Products</h1>
       <div id='prdata'>
         {ans}
       </div>

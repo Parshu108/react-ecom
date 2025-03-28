@@ -45,7 +45,7 @@ const Wireless=()=>{
    return(
       <>
 
-    <h1 className='head'>Our Primium Products</h1>
+    <h1 className='head'>Our Wireless Products</h1>
       <div id='prdata'>
         {ans}
       </div>
