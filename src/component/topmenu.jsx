@@ -21,8 +21,8 @@ const Topmenu=()=>{
             <Nav.Link href="#action1" as={Link} to="home" style={{color:`black`,fontSize:`18px`,fontWeight:`600`}}>Home</Nav.Link>
             <Nav.Link href="#action2" style={{color:`black`,fontSize:`18px`,fontWeight:`600`}}>About</Nav.Link>
             <NavDropdown title="Categrary" id="navbarScrollingDropdown" style={{color:`black`,fontSize:`18px`,fontWeight:`600`}}>
-              <NavDropdown.Item href="#action3">Wireless</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
+              <NavDropdown.Item href="#action3" as={Link} to="wireless">Wireless</NavDropdown.Item>
+              <NavDropdown.Item href="#action4" as={Link} to="neakband">
                 neakband
               </NavDropdown.Item>
               <NavDropdown.Divider />

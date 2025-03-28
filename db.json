@@ -4,60 +4,70 @@
          "id":1,
          "name":"boAt Rockerz 450 Pro",
          "prize":1799,
+         "categry":"Wireless",
          "img":"https://www.boat-lifestyle.com/cdn/shop/products/main-img3_600x.png?v=1616562632"
       },
       {
          "id":2,
-         "name":"boAt Rockerz 650 Pro",
-         "prize":2799,
-         "img":"https://www.boat-lifestyle.com/cdn/shop/files/main_image_bce2d078-2e2f-4e8d-a13a-b42b5402defb_800x.png?v=1741067646"
+         "name":"boAt Rockerz 235 Pro",
+         "prize":899,
+         "categry":"Neckband",
+         "img":"https://www.boat-lifestyle.com/cdn/shop/products/main_2_53c3483e-38d0-4a88-a8e0-b75fe5b23584_600x.png?v=1685696997"
       },
       {
          "id":3,
          "name":"boAt Rockerz 551 ANC Pro",
          "prize":3799,
+         "categry":"Wireless",
          "img":"https://www.boat-lifestyle.com/cdn/shop/files/ACCH3Y28FFJY6QRH_0_1500x.png?v=1737717888"
       },
       {
          "id":4,
-         "name":"boAt Rockerz 550 FM",
-         "prize":4799,
-         "img":"https://www.boat-lifestyle.com/cdn/shop/products/0cfa4417-0213-4b49-b78e-0ae68aeb7057_992e05f4-0469-450f-9f82-6d69ee099700_600x.png?v=1685954259"
+         "name":"boAt Rockerz 333 Pro",
+         "prize":1399,
+         "categry":"Neckband",
+         "img":"https://www.boat-lifestyle.com/cdn/shop/products/GREEN_0bbd189a-8ab1-4806-80f2-95f679d0712d_600x.png?v=1652792832"
       },
       {
          "id":5,
          "name":"boAt Rockerz 550",
          "prize":2499,
+         "categry":"Wireless",
          "img":"https://www.boat-lifestyle.com/cdn/shop/products/48b829ed-bee6-492e-b9bc-1824d5c63bd4_600x.png?v=1625046144"
       },
       {
          "id":6,
-         "name":"boAt Rockerz 425",
-         "prize":1499,
-         "img":"https://www.boat-lifestyle.com/cdn/shop/products/main1_f1b5ec66-9373-4ca7-b824-0edd129ab085_600x.png?v=1645698329"
+         "name":"boAt Rockerz 210 ANC",
+         "prize":1399,
+         "categry":"Neckband",
+         "img":"https://www.boat-lifestyle.com/cdn/shop/files/r210_anc_mian_img_v2.127_800x.png?v=1726107862"
       },
       {
          "id":7,
          "name":"boAt Rockerz 430",
          "prize":1299,
+         "categry":"Wireless",
          "img":"https://www.boat-lifestyle.com/cdn/shop/files/Artboard_1_2519fa28-1e18-46a1-b8af-5701d49789bb_800x.png?v=1728873547"
       },
       {
          "id":8,
          "name":"boAt Rockerz 480",
          "prize":1799,
+         "categry":"Wireless",
          "img":"https://www.boat-lifestyle.com/cdn/shop/files/Artboard_1_ecd64de9-2c17-47f4-976a-1d07bf8902cc_800x.png?v=1728871268"
       },
       {
          "id":9,
-         "name":"boAt Rockerz 450R",
-         "prize":1599,
-         "img":"https://www.boat-lifestyle.com/cdn/shop/products/eb8e0fbd-c412-48b3-9c91-5b49ddf35800_17432771-6821-4dbf-86ac-9cb7c8dfe460_600x.png?v=1658829303"
+         "name":"boAt Rockerz 330",
+         "prize":1299,
+         "categry":"Neckband",
+         "img":"https://www.boat-lifestyle.com/cdn/shop/products/main1_15634ca0-9f81-4d11-b891-9a1496f709b1_600x.png?v=1641801688"
       },
       {
          "id":10,
          "name":"boAt Rockerz 460",
          "prize":1799,
+         "categry":"Wireless",
          "img":"https://www.boat-lifestyle.com/cdn/shop/files/R460-FI_Black01_d8ded780-a0bb-4b54-a9ad-37ae60a3d288_800x.png?v=1733826338"
       }
    ]

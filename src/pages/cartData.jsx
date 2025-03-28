@@ -23,6 +23,7 @@ const Cartdata=()=>{
                <td>{sno}</td>
                <td> <img src={key.img} width="100"height="100" /></td>
                <td>{key.name}</td>
+               <td>{key.categry}</td>
                <td>{key.prize}</td>
                <td style={{fontSize:"20px"}}>
                   <a href="#" onClick={()=>{disptach(qntydecrease({id:key.id}))}}>
@@ -51,6 +52,7 @@ const Cartdata=()=>{
           <th>sno</th>
           <th> </th>
           <th>Product Name</th>
+          <th>categrary</th>
           <th>Price</th>
           <th>quantity</th>
           <th>Total Amount</th>

@@ -19,8 +19,8 @@
 #prdata{
    display: flex;
    flex-wrap: wrap;
-   gap: 30px;
-   width: 85%;
+   gap: 20px;
+   width: 90%;
    margin: auto;
 }
 .head{
@@ -39,4 +39,21 @@ h1{
    top: 20px;
    padding: 10px;
    
+}
+#prdata{
+   display: flex;
+   width: 70%;
+   margin: auto;
+   /* border: 1px solid blue; */
+}
+p{
+   width: 50%;
+}
+h3{
+   font-size: 35px;
+}
+#prdetail{
+   margin-top: 25px;
+   width: 50%;
+   flex-wrap: wrap;
 }
