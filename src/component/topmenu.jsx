@@ -28,7 +28,7 @@ const Topmenu=()=>{
               <NavDropdown.Divider />
             </NavDropdown>
             <Nav.Link href="#action2" style={{color:`black`,fontSize:`18px`,fontWeight:`600`}}>Review</Nav.Link>
-            <Nav.Link href="#action2" style={{color:`black`,fontSize:`18px`,fontWeight:`600`}}>ContactUs</Nav.Link>
+            <Nav.Link href="#action2" as={Link} to="search" style={{color:`black`,fontSize:`18px`,fontWeight:`600`}}>Search</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control

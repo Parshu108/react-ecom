@@ -5,6 +5,8 @@ import Cartdata from "./pages/cartData";
 import Productdisplay from "./pages/productdisplay"; 
 import Wireless from "./pages/wireless";
 import Neakband from "./pages/neakband";
+import Productsearch from "./pages/productsearch";
+import Checkout from "./pages/checkout";
 
 const App=()=>{
   return(
@@ -17,6 +19,8 @@ const App=()=>{
           <Route path="cartdata" element={<Cartdata/>}/>
           <Route path="wireless" element={<Wireless/>}/>
           <Route path="neakband" element={<Neakband/>}/>
+          <Route path="search" element={<Productsearch/>}/>
+          <Route path="checkout" element={<Checkout/>}/>
           <Route path="productdisplay/:id" element={<Productdisplay/>}/>
 
           </Route>

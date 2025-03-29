@@ -5,6 +5,8 @@ import { FaRupeeSign } from "react-icons/fa";
 import { FaPlusCircle } from "react-icons/fa";
 import { FaCircleMinus } from "react-icons/fa6";
 import { qntIncrese,qntydecrease,dataRemove } from "../cartSlice";
+import { Button } from "react-bootstrap";
+import { useNavigate} from "react-router-dom";
 
 
 
@@ -12,6 +14,7 @@ import { qntIncrese,qntydecrease,dataRemove } from "../cartSlice";
 const Cartdata=()=>{
    const prodata=useSelector(state=>state.mycart.cart);
    const disptach=useDispatch();
+   const navigate = useNavigate();
  let sno=0;
  let netAmount=0;
    const ans=prodata.map((key)=>{
@@ -63,6 +66,10 @@ const Cartdata=()=>{
          {ans}
       </tbody>
       </Table>
+      <br />
+      <div style={{display:"Flex", justifyContent:"right", paddingRight:"50px"}}>
+         <Button onClick={()=>{navigate("/checkout")}}>Checkout</Button>
+      </div>
       </>
    )
 }
