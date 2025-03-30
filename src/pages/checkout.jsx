@@ -6,7 +6,7 @@ const Checkout=()=>{
       <>
          
           <h1> Checkout Page</h1>  
-          <Form style={{width:"500px", margin:"auto"}}>
+          <Form style={{width:"500px", margin:"auto", backgroundColor:"lightblue",padding:"20px",borderRadius:"20px",marginBottom:"20px"}}>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Enter name</Form.Label>
         <Form.Control type="text" />

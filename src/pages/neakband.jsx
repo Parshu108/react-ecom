@@ -46,6 +46,8 @@ const Neakband=()=>{
       <>
 
     <h1 className='head'>Our Neakband Products</h1>
+    <br />
+    <hr />
       <div id='prdata'>
         {ans}
       </div>

@@ -13,8 +13,34 @@
 }
 #footer{
    width: 100%;
-   height: 130px;
-   background-color: rgb(89, 140, 192);
+   display: flex;
+   justify-content: space-evenly;
+   margin: auto;
+   margin-top: 10px;
+   flex-wrap: wrap;
+   height: 150px;
+   background-color: rgba(146, 150, 148, 0.297);
+}
+input{
+   border-radius: 10px;
+   border: none;
+   padding: 5px;
+}
+#f-div{
+   padding: auto;
+   padding: 10px;
+}
+li {
+   list-style-type: none;
+   font-size: 17px;
+   margin-top: 10px;
+}
+ li a{
+   text-decoration: none;
+   color: rgb(71, 70, 70);
+}
+li a:hover{
+   color: rgb(0, 0, 0);
 }
 #prdata{
    display: flex;
@@ -59,4 +85,11 @@ h3{
    margin-top: 40px;
    width: 50%;
    flex-wrap: wrap;
+}
+span{
+   font-size: 18px;
+   color: rgb(8, 243, 165);
+}
+#f-div1{
+   margin-top: 10px;
 }

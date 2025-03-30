@@ -46,6 +46,8 @@ const Wireless=()=>{
       <>
 
     <h1 className='head'>Our Wireless Products</h1>
+    <br />
+    <hr />
       <div id='prdata'>
         {ans}
       </div>
