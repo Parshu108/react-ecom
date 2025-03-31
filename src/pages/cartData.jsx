@@ -39,7 +39,7 @@ const Cartdata=()=>{
                </td>
                <td>{key.prize*key.qnty}</td>
                <td>
-                  <button onClick={()=>{disptach(dataRemove({id:key.id}))}}>Remove</button>
+                  <Button onClick={()=>{disptach(dataRemove({id:key.id}))}}>Remove</Button>
                   </td>
             </tr>
          </>
