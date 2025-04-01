@@ -37,8 +37,11 @@ const cartSlice=createSlice({
       },
       dataRemove:(state,actions)=>{
          state.cart=state.cart.filter(item=>item.id!=actions.payload.id)
-      }
+      },
+       removeCart:(state)=>{
+          state.cart=[];
+        }
    }
 })
-export const{addtocard,qntIncrese,qntydecrease,dataRemove}=cartSlice.actions;
+export const{addtocard,qntIncrese,qntydecrease,dataRemove,removeCart}=cartSlice.actions;
 export default cartSlice.reducer;

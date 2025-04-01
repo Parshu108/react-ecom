@@ -7,6 +7,7 @@ import Wireless from "./pages/wireless";
 import Neakband from "./pages/neakband";
 import Productsearch from "./pages/productsearch";
 import Checkout from "./pages/checkout";
+import OrderComplete from "./pages/ordercomplete";
 
 const App=()=>{
   return(
@@ -21,6 +22,7 @@ const App=()=>{
           <Route path="neakband" element={<Neakband/>}/>
           <Route path="search" element={<Productsearch/>}/>
           <Route path="checkout" element={<Checkout/>}/>
+          <Route path="ordercomplete" element={<OrderComplete/>}/>
           <Route path="productdisplay/:id" element={<Productdisplay/>}/>
 
           </Route>
