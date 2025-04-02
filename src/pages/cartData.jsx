@@ -8,9 +8,6 @@ import { qntIncrese,qntydecrease,dataRemove } from "../cartSlice";
 import { Button } from "react-bootstrap";
 import { useNavigate} from "react-router-dom";
 
-
-
-
 const Cartdata=()=>{
    const prodata=useSelector(state=>state.mycart.cart);
    const disptach=useDispatch();

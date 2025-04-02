@@ -95,6 +95,16 @@
       "contactno": "8456957589",
       "city": "bhopal",
       "email": "adi456@gmail.com"
+    },
+    {
+      "id": "73a6",
+      "products": "Product Name : boAt Rockerz 235 Pro, Qnty: 2 <br> Product Name : boAt Rockerz 551 ANC Pro, Qnty: 2 <br> Product Name : boAt Rockerz 261 Pro, Qnty: 2 <br> ",
+      "totalamount": 12894,
+      "name": "Rahul pandey",
+      "address": "18 nirmal ips bhopal MP",
+      "contactno": "1568555256",
+      "city": "Bhopal",
+      "email": "rahul532@gmail.com"
     }
   ]
 }

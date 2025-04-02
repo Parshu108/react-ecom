@@ -33,7 +33,7 @@ const Footer=()=>{
             </div>
             <div id="f-div1">
                <h5>payment</h5>
-               <FaGooglePay style={{color:"lightblue",fontSize:"35px"}} />
+               <FaGooglePay style={{color:"blue",fontSize:"35px"}} />
                <SiPaytm style={{color:"blue",fontSize:"35px",marginLeft:"10px"}}/>
                <FaAmazonPay style={{color:"blue",fontSize:"35px",marginLeft:"10px"}}/>
             </div>
