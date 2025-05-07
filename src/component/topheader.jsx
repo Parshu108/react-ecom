@@ -10,13 +10,16 @@ const Topheader=()=>{
   const prlength=product.length;
   return(
     <>
+    
       <div id="headerdata">
         <a href="#" onClick={()=>{navegite("./Cartdata")}}>
         <FaShoppingCart />
         </a>
         {prlength}
+        <a href="#" onClick={()=>{navegite("./Customber")}}>
+          <RiAdminFill />
+        </a>
         
-        <RiAdminFill />
       </div>
     </>
   )

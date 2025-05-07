@@ -8,6 +8,7 @@ import Neakband from "./pages/neakband";
 import Productsearch from "./pages/productsearch";
 import Checkout from "./pages/checkout";
 import OrderComplete from "./pages/ordercomplete";
+import Customber from "./pages/customber";
 
 const App=()=>{
   return(
@@ -24,6 +25,7 @@ const App=()=>{
           <Route path="checkout" element={<Checkout/>}/>
           <Route path="ordercomplete" element={<OrderComplete/>}/>
           <Route path="productdisplay/:id" element={<Productdisplay/>}/>
+          <Route path="customber" element={<Customber/>}/>
 
           </Route>
         </Routes>

@@ -130,6 +130,30 @@
       "contactno": "9875486125",
       "city": "Bhopal",
       "email": "vijay098@gmail.com"
+    },
+    {
+      "id": "0067",
+      "products": "Product Name : boAt Rockerz 235 Pro, Qnty: 2 <br> ",
+      "totalamount": 1798,
+      "name": "rahul",
+      "address": "65,purwasanagar bhopal mp",
+      "contactno": "9875486125",
+      "city": "Bhopal",
+      "email": "ram566@gmail.com"
+    },
+    {
+      "id": "c17b",
+      "products": "Product Name : boAt Rockerz 460, Qnty: 2 <br> ",
+      "totalamount": 3598
+    }
+  ],
+  "customber": [
+    {
+      "id": "1",
+      "name": "parshuram",
+      "email": "xyz@gmail.com",
+      "password": "01213ase",
+      "cnpassword": "01213ase"
     }
   ]
 }

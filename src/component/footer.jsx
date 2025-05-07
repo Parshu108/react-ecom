@@ -9,7 +9,8 @@ const Footer=()=>{
    return(
       <>
          <div id="footer">
-            <div id="f-div">
+            <div id="div1">
+               <div id="f-div">
                <h4>Headphone</h4>
                <h6>
                <a href="#"><FaFacebook style={{color:"blue",fontSize:"25px"}} /></a>
@@ -36,6 +37,10 @@ const Footer=()=>{
                <FaGooglePay style={{color:"blue",fontSize:"35px"}} />
                <SiPaytm style={{color:"blue",fontSize:"35px",marginLeft:"10px"}}/>
                <FaAmazonPay style={{color:"blue",fontSize:"35px",marginLeft:"10px"}}/>
+            </div>
+            </div>
+            <div id="pdiv">
+               <p>CopyWrite 2025 @HeadPhone-All Right Reserved.</p>
             </div>
          </div>
       </>

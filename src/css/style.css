@@ -11,20 +11,30 @@
    top: 0;
    z-index: 3;
 }
+#heade{
+   margin-left: 200px;
+   font-size: 25px;
+}
+
 #footer{
    width: 100%;
-   display: flex;
+   display: block;
    justify-content: space-evenly;
    margin: auto;
+   padding: 5px;
    margin-top: 10px;
    flex-wrap: wrap;
-   height: 150px;
+   height: 200px;
    background-color: rgba(146, 150, 148, 0.297);
 }
 input{
    border-radius: 10px;
    border: none;
    padding: 5px;
+}
+#div1{
+   display: flex;
+   justify-content: space-between;
 }
 #f-div{
    padding: auto;
@@ -92,4 +102,12 @@ span{
 }
 #f-div1{
    margin-top: 10px;
+}
+#pdiv{
+   margin-left: 550px;
+   margin-top: 15px;
+}
+#button{
+   margin-left: 200px;
+   background-color: #048eff;
 }
