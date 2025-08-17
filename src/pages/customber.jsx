@@ -6,7 +6,6 @@ const Customber = () => {
   const [password, setPassword] = useState('');
   const [validated, setValidated] = useState(false);
   const [error, setError] = useState('');
-
   const handleSubmit = (event) => {
     event.preventDefault();
     if (!email || !password) {
@@ -38,7 +37,6 @@ const Customber = () => {
                     required
                   />
                 </Form.Group>
-
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                   <Form.Label>Password</Form.Label>
                   <Form.Control
@@ -49,7 +47,6 @@ const Customber = () => {
                     required
                   />
                 </Form.Group>
-
                 <Button variant="primary" type="submit" className="w-45" id='button'>
                   Login
                 </Button>

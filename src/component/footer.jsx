@@ -8,7 +8,7 @@ import { FaAmazonPay } from "react-icons/fa";
 const Footer=()=>{
    return(
       <>
-         <div id="footer">
+         <div id="footer" className="container-fluid ">
             <div id="div1">
                <div id="f-div">
                <h4>Headphone</h4>
