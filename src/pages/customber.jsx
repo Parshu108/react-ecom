@@ -19,12 +19,12 @@ const Customber = () => {
   };
 
   return (
-    <Container className="mt-5" >
-      <Row className="justify-content-md-center">
+    <Container className="mt-5 " >
+      <Row className="justify-content-md-center ">
         <Col md={5}>
-          <Card >
+          <Card className="bg-primary" >
             <Card.Body >
-              <Card.Title className="mb-5" id='heade'>Login</Card.Title>
+              <Card.Title className="mb-5 " id='heade'>Login</Card.Title>
               {error && <Alert variant="danger">{error}</Alert>}
               <Form noValidate validated={validated} onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
