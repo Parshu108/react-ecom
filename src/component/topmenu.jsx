@@ -10,7 +10,7 @@ const Topmenu=()=>{
       <>
          <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand href="#" style={{color:`green`,fontSize:`18px`,fontWeight:`600`}}>HeadPhones</Navbar.Brand>
+        <Navbar.Brand href="#" className=' text-black fs-1 fw-bold hover:text-danger' >HeadPhones</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
