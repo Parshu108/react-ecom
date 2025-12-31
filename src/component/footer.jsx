@@ -1,49 +1,75 @@
+import React from "react";
+// import { motion} from "framer-motion";
 import { FaFacebook } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaTwitterSquare } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaGooglePay } from "react-icons/fa";
-import { SiPaytm } from "react-icons/si";
-import { FaAmazonPay } from "react-icons/fa";
-const Footer=()=>{
-   return(
-      <>
-         <div id="footer" className="container-fluid ">
-            <div id="div1">
-               <div id="f-div">
-               <h4>Headphone</h4>
-               <h6>
-               <a href="#"><FaFacebook style={{color:"blue",fontSize:"25px"}} /></a>
-               <a href="#"> <FaLinkedin style={{color:"blue",fontSize:"25px",marginLeft:"10px"}} /></a>
-               <a href="#"> <FaTwitterSquare style={{color:"blue",fontSize:"25px",marginLeft:"10px"}} /></a>
-               <a href="#"><FaGithub style={{color:"black",fontSize:"25px",marginLeft:"10px"}} /></a>
-               </h6>
-               <br />
-               <input type="email" placeholder="Enter e-mail" />
-            </div>
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+
+const Footer = () => {
+  return (
+    <footer className="bg-dark text-light pt-5">
+      <div className="container">
+        <div className="row">
+
+          {/* Brand Info */}
+          <div className="col-md-4 mb-4">
+            <h4 className="fw-bold">HpPhone</h4>
+            <p className="text-light">
+              Premium headphones designed for immersive sound,
+              comfort, and style.
+            </p>
             <div>
-               <li><a href="#">Home</a></li>
-               <li><a href="#">About</a></li>
-               <li><a href="#">Category</a></li>
-               <li><a href="#">service</a></li>
+              <FaFacebook className="me-3 fs-5" />
+              <FaInstagramSquare className="me-3 fs-5" />
+              <FaTwitter className="me-3 fs-5" />
             </div>
-            <div>
-               <li><a href="#">Category</a></li>
-               <li><a href="#">Wireless</a></li>
-               <li><a href="#">Neakband</a></li>
-            </div>
-            <div id="f-div1">
-               <h5>payment</h5>
-               <FaGooglePay style={{color:"blue",fontSize:"35px"}} />
-               <SiPaytm style={{color:"blue",fontSize:"35px",marginLeft:"10px"}}/>
-               <FaAmazonPay style={{color:"blue",fontSize:"35px",marginLeft:"10px"}}/>
-            </div>
-            </div>
-            <div id="pdiv">
-               <p>CopyWrite 2025 @HeadPhone-All Right Reserved.</p>
-            </div>
-         </div>
-      </>
-   )
-}
+          </div>
+
+          {/* Shop Links */}
+          <div className="col-md-2 mb-4">
+            <h5 className="fw-semibold">Shop</h5>
+            <ul className="list-unstyled">
+              <li><a href="#" className="footer-link">Wireless</a></li>
+              <li><a href="#" className="footer-link">Noise Cancelling</a></li>
+              <li><a href="#" className="footer-link">Gaming</a></li>
+              <li><a href="#" className="footer-link">Accessories</a></li>
+            </ul>
+          </div>
+
+          {/* Support */}
+          <div className="col-md-3 mb-4">
+            <h5 className="fw-semibold">Support</h5>
+            <ul className="list-unstyled">
+              <li><a href="#" className="footer-link">Contact Us</a></li>
+              <li><a href="#" className="footer-link">FAQs</a></li>
+              <li><a href="#" className="footer-link">Shipping & Returns</a></li>
+              <li><a href="#" className="footer-link">Warranty</a></li>
+            </ul>
+          </div>
+
+          {/* Newsletter */}
+          <div className="col-md-3 mb-4">
+            <h5 className="fw-semibold">Newsletter</h5>
+            <p className="text-light">Get exclusive deals & updates</p>
+            <form className="d-flex">
+              <input
+                type="email"
+                className="form-control me-2"
+                placeholder="Your email"
+              />
+              <button className="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
+
+        </div>
+
+        <hr className="border-secondary" />
+
+        <div className="text-center pb-3 text-light">
+          © {new Date().getFullYear()} SoundMax. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+  );
+};
+
 export default Footer;

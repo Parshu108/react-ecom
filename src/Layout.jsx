@@ -6,7 +6,6 @@ import Footer from "./component/footer";
 const Layout=()=>{
   return(
     <>
-    <Topheader/>
     <Topmenu/>
     <Outlet/>
     <Footer/>

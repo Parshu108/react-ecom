@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-import ban1 from "../images/baner8.webp";
-import ban2 from "../images/baner9.webp";
-import ban3 from "../images/baner5.webp";
+import ban1 from "../images/slider.png";
+import ban2 from "../images/slider-2.png";
+import ban3 from "../images/slider-3.png";
 import { useState,useEffect } from 'react';
 import axios from 'axios';
 import Button from 'react-bootstrap/Button';
@@ -47,7 +47,7 @@ const Home=()=>{
   })
    return(
       <>
-         <Carousel data-bs-theme="dark">
+         <Carousel data-bs-theme="dark" className='bg-black'>
       <Carousel.Item>
         <img src={ban1} style={{width:"100%",height:"500px"}} />
         <Carousel.Caption>
@@ -69,7 +69,7 @@ const Home=()=>{
       </Carousel.Item>
     </Carousel>
 
-    <h1 className='head '>Our Primium Products</h1>
+    <h1 className="head p-3 m-2 text-2xl">Our Primium Products</h1>
       <div id='prdata'>
         {ans}
       </div>
