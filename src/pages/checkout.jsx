@@ -31,6 +31,7 @@ const Checkout=()=>{
           let api="http://localhost:3000/order";
           const response = await axios.post(api, {products:proDetail, totalamount:totalPrice, ...input} );
           dispatch(removeCart())
+          console.log(response.data);
           navigate("/ordercomplete");
           }
    return(

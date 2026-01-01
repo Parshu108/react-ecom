@@ -19,10 +19,10 @@ const Customber = () => {
   };
 
   return (
-    <Container className="mt-5 " >
+    <Container className="mt-5 p-4 " >
       <Row className="justify-content-md-center ">
         <Col md={5}>
-          <Card className="bg-primary" >
+          <Card className=" " >
             <Card.Body >
               <Card.Title className="mb-5 " id='heade'>Login</Card.Title>
               {error && <Alert variant="danger">{error}</Alert>}
