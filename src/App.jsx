@@ -1,36 +1,37 @@
-import { BrowserRouter,Routes,Route } from "react-router-dom";
-import Layout from "./layout";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./Layout";
 import Home from "./pages/home";
+import About from "./pages/about";
 import Cartdata from "./pages/cartData";
-import Productdisplay from "./pages/productdisplay"; 
+import Productdisplay from "./pages/productdisplay";
 import Wireless from "./pages/wireless";
 import Neakband from "./pages/neakband";
 import Productsearch from "./pages/productsearch";
 import Checkout from "./pages/checkout";
 import OrderComplete from "./pages/ordercomplete";
 import Customber from "./pages/customber";
+import Review from "./pages/review";
 
-const App=()=>{
-  return(
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout/>}>
-          <Route index element={<Home/>}/>
-          <Route path="home" element={<Home/>}/>
-          <Route path="cartdata" element={<Cartdata/>}/>
-          <Route path="wireless" element={<Wireless/>}/>
-          <Route path="neakband" element={<Neakband/>}/>
-          <Route path="search" element={<Productsearch/>}/>
-          <Route path="checkout" element={<Checkout/>}/>
-          <Route path="ordercomplete" element={<OrderComplete/>}/>
-          <Route path="productdisplay/:id" element={<Productdisplay/>}/>
-          <Route path="customber" element={<Customber/>}/>
-
-          </Route>
-        </Routes>
-      </BrowserRouter>
-    </>
-  )
-}
+const App = () => {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="home" element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="cartdata" element={<Cartdata />} />
+          <Route path="wireless" element={<Wireless />} />
+          <Route path="neakband" element={<Neakband />} />
+          <Route path="search" element={<Productsearch />} />
+          <Route path="checkout" element={<Checkout />} />
+          <Route path="ordercomplete" element={<OrderComplete />} />
+          <Route path="productdisplay/:id" element={<Productdisplay />} />
+          <Route path="review" element={<Review />} />
+          <Route path="customber" element={<Customber />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
+};
 export default App;

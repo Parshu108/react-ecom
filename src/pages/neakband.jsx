@@ -1,57 +1,30 @@
+import { useState, useEffect } from "react";
+import axios from "axios";
+import ProductCard from "../component/productcard";
 
-import { useState,useEffect } from 'react';
-import axios from 'axios';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import { addtocard } from '../cartSlice';
-import { useDispatch } from 'react-redux';
-import { useNavigate } from 'react-router-dom';
-const Neakband=()=>{
-  const [mydata,setdata]=useState([]);
-  const disptach=useDispatch();
-  const naviget =useNavigate();
-  const loadData=async()=>{
-    let api=`http://localhost:3000/product/?categry=Neckband`;
-    const resp=await axios.get(api);
-    console.log(resp.data);
+const Neakband = () => {
+  const [mydata, setdata] = useState([]);
+
+  const loadData = async () => {
+    const api = `http://localhost:3000/product/?categry=Neckband`;
+    const resp = await axios.get(api);
     setdata(resp.data);
-  }
-  useEffect(()=>{
+  };
+
+  useEffect(() => {
     loadData();
-  },[])
-  const Prodisplay=(id)=>{
-      naviget(`/productdisplay/${id}`);
-  }
+  }, []);
 
-  const ans=mydata.map((key)=>{
-    return(
-      <>
-        <Card style={{ width: '18rem' }}>
-      <a href="#" onClick={()=>{Prodisplay(key.id)}}>
-        <Card.Img variant="top" src={key.img} />
-      </a>
-      <Card.Body>
-        <Card.Title>{key.name }</Card.Title>
-        <Card.Title>{key.categry }</Card.Title>
-        <Card.Text>
-          <h3>Price:{key.prize}</h3>
-        </Card.Text>
-        <Button variant="primary" onClick={()=>{disptach(addtocard({id:key.id, name:key.name,categry:key.categry, prize:key.prize,img:key.img, qnty:1}))}}>Add to Card</Button>
-      </Card.Body>
-    </Card>
-      </>
-    )
-  })
-   return(
-      <>
-
-    <h1 className='head'>Our Neakband Products</h1>
-    <br />
-    <hr />
-      <div id='prdata'>
-        {ans}
+  return (
+    <section className="mx-auto max-w-7xl px-6 py-12 md:px-8">
+      <h1 className="text-center font-display text-2xl font-bold text-cyan-300 md:text-3xl">Our Neckband Products</h1>
+      <div className="mx-auto mb-10 mt-4 h-px w-full max-w-xs bg-white/10" />
+      <div className="flex flex-wrap justify-center gap-6">
+        {mydata.map((key) => (
+          <ProductCard key={key.id} product={key} />
+        ))}
       </div>
-      </>
-   )
-}
+    </section>
+  );
+};
 export default Neakband;
